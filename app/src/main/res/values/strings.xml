@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">LAB6</string>
+    <string name="titulo_sesiones">Mis sesiones de estudio</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="ver_graficos">Ver gráficos</string>
+    <string name="agregar_sesion">Agregar</string>
+    <string name="editar_sesion">Editar</string>
+    <string name="eliminar_sesion">Eliminar</string>
+    <string name="cargando_sesiones">Cargando tus registros de estudio…</string>
+    <string name="sin_sesiones">Todavía no tienes registros de estudio.</string>
+    <string name="error_cargar_sesiones">No se pudieron cargar tus registros de estudio. Revisa tu conexión y los permisos de Firestore.</string>
+    <string name="error_formato_sesiones">Hay un registro con datos incompatibles. Revisa sus campos en Firestore.</string>
+    <string name="cerrando_sesion">Cerrando sesión…</string>
+    <string name="error_cerrar_sesion">No se pudo cerrar sesión.</string>
+    <string name="sesion_finalizada">Tu sesión de acceso ha finalizado.</string>
+    <string name="horas_sin_dato">Horas sin registrar</string>
+    <string name="nombre_aplicacion">Horas de estudio</string>
+    <string name="logo_estudio">Logo de Horas de estudio</string>
+    <string name="continuar_correo">Continuar con correo</string>
+    <string name="continuar_google">Continuar con Google</string>
+    <string name="ayuda_acceso">Con correo puedes iniciar sesión, crear tu cuenta o recuperar tu contraseña.</string>
+    <string name="error_acceso">No se pudo iniciar sesión. Revisa tu conexión y vuelve a intentarlo.</string>
+    <string name="confirmar_eliminar">¿Eliminar el registro de estudio de %1$s?</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="volver">Volver</string>
+    <string name="sesion_eliminada">Registro de estudio eliminado.</string>
+    <string name="error_eliminar_sesion">No se pudo eliminar el registro. Revisa tu conexión y los permisos de Firestore.</string>
+    <string name="editar_registro">Editar registro de estudio</string>
+    <string name="nuevo_registro">Nuevo registro de estudio</string>
+    <string name="curso">Curso</string>
+    <string name="fecha">Fecha</string>
+    <string name="fecha_visible">%1$s/%2$s/%3$s</string>
+    <string name="horas_dedicadas">Horas dedicadas</string>
+    <string name="tipo_actividad">Tipo de actividad</string>
+    <string name="ayuda_horas">Puedes usar decimales, por ejemplo 1,5 horas.</string>
+    <string name="ingresa_curso">Ingresa el nombre del curso.</string>
+    <string name="selecciona_fecha">Selecciona una fecha válida.</string>
+    <string name="horas_invalidas">Ingresa un número de horas mayor que cero.</string>
+    <string name="selecciona_tipo">Selecciona Teoría, Práctica o Laboratorio.</string>
+    <string name="error_cargar_registro">No se pudo cargar el registro de estudio.</string>
+    <string name="registro_no_existe">Este registro de estudio ya fue eliminado.</string>
+    <string name="guardar_registro">Guardar registro</string>
+    <string name="registro_guardado">Registro de estudio guardado.</string>
+    <string name="error_guardar_registro">No se pudo guardar el registro. Revisa tu conexión y vuelve a intentarlo.</string>
+    <string name="esperando_guardado">Guardando… Se espera la confirmación de Firebase.</string>
+    <string name="titulo_graficos">Gráficos de estudio</string>
+    <string name="filtrar_curso">Filtrar por curso</string>
+    <string name="todos_cursos">Todos los cursos</string>
+    <string name="sin_datos_graficos">Todavía no hay horas registradas para este curso.</string>
+    <string name="horas_por_mes">Horas de estudio por mes</string>
+    <string name="horas_por_actividad">Distribución de horas por actividad</string>
+    <string name="total_horas">Total de horas de estudio: %1$s</string>
+    <string name="resumen_barras">Horas por mes: %1$s</string>
+    <string name="resumen_torta">Horas por tipo de actividad: %1$s</string>
+    <string-array name="tipos_actividad">
+        <item>Teoría</item>
+        <item>Práctica</item>
+        <item>Laboratorio</item>
+    </string-array>
+    <string-array name="meses">
+        <item>Ene</item><item>Feb</item><item>Mar</item><item>Abr</item>
+        <item>May</item><item>Jun</item><item>Jul</item><item>Ago</item>
+        <item>Sep</item><item>Oct</item><item>Nov</item><item>Dic</item>
+    </string-array>
+    <plurals name="horas_estudio">
+        <item quantity="one">%1$s hora</item>
+        <item quantity="other">%1$s horas</item>
+    </plurals>
+</resources>
